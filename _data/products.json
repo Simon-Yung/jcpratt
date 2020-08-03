@@ -1,10 +1,10 @@
 {
     "urbain":[
-        {"image":"foo.jpg","description":"foo","link":"https://www.foo.com"},
-        {"image":"foo.jpg","description":"foo","link":"https://www.foo.com"}
+        {"image":"foo.jpg","link":"https://www.foo.com"},
+        {"image":"foo.jpg","link":"https://www.foo.com"}
     ],
     "sousTerre":[
-        {"image":"foo.jpg","description":"foo","link":"https://www.foo.com"},
-        {"image":"foo.jpg","description":"foo","link":"https://www.foo.com"}
+        {"image":"foo.jpg","link":"https://www.foo.com"},
+        {"image":"foo.jpg","link":"https://www.foo.com"}
     ]
 }

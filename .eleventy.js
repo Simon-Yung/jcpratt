@@ -9,18 +9,32 @@ function searchByGlob(glob){
 
 module.exports = function(eleventyConfig) {
 
-    // Filter source file names using a glob
-    //eleventyConfig.addCollection("urbain", function(collectionApi) {
-    //    return collectionApi.getFilteredByGlob(["img/urbain/thumbnails/*.jpg" , "img/urbain/thumbnails/*.jpeg"]);
-    //});
-    
-    eleventyConfig.addCollection("urbain", function(collectionApi) {
-        const urbain = searchByGlob("img/urbain/thumbnails/*.???");
-        return urbain;
-    });
+    //get every folders in /galleries
+    const galleries =  fg.sync('galleries/*', { onlyDirectories: true, deep: 0 });
+
+    //for each of the folder
+    galleries.forEach(
+        function (value) {
+
+            //create a collection named as the folder 's name
+            let title = value.replace('galleries/','');
+
+            eleventyConfig.addCollection( title, function(collectionApi) {
+
+                //get the images in the ''larges'' folder and sort them alphabetically
+                let collection = searchByGlob( value + "/thumbnails/*.???");
+                collection.sort();
+
+                return collection;
+            });
+        }
+
+    );
+         
 
     //pass through copy for css javascript and internal images
     eleventyConfig.addPassthroughCopy({ "_includes/assets": "includes/assets" });
-    eleventyConfig.addPassthroughCopy({ "img": "img" });
+    eleventyConfig.addPassthroughCopy({ "galleries": "galleries" });
+    eleventyConfig.addPassthroughCopy({ "products": "products" });
 
 };

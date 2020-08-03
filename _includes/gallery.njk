@@ -1,0 +1,40 @@
+---
+title: "gallery"
+description: ""
+permalink: "{{page.fileSlug}}/"
+tags: galleries
+---
+<!doctype html>
+<html style="scroll-behavior: smooth;">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="/includes/assets/css/styles.css">
+        <script src="/includes/assets/js/modal_gallery.js" defer> </script>
+        {% include "components/metadata.njk" %}
+    </head>
+    <body class="gallery_page">
+
+        {% include "components/header.njk" %}
+
+        <div class="gallery_intro_box">
+            <div class="gallery_intro">
+                {{ content | safe }}
+            </div>
+        </div>
+
+        <div class="gallery">
+            {%- set totalNumberOfImages = ( products | length ) + ( collections[page.fileSlug] | length ) %}
+            {%- set offset = products | length %}
+        {%- for product in products %}
+            <img class ="preview" src="/products/thumbnails/{{product.image}}" id="{{loop.index}}" onclick="openModalGallery( {{loop.index}} )" 
+            data-pagination="{{loop.index}}/{{totalNumberOfImages}}" data-external-link="{{product.link}}" >
+        {%- endfor %}
+        {%- for image in collections[page.fileSlug] %}
+            <img class ="preview" src="/{{image}}" id="{{loop.index + offset}}" onclick="openModalGallery( {{loop.index + offset}} )" 
+            data-pagination="{{loop.index + offset}}/{{totalNumberOfImages}}">
+        {%- endfor %}
+        </div>
+        {% include "components/footer.njk" %}
+        {% include "components/modal.njk" %}
+    </body>
+</html>
