@@ -41,7 +41,6 @@ h1{
 p{
     font: 300 1rem/1.5 'Quicksand', sans-serif;
     color: #eeeeee;
-    padding-bottom: 1.5rem;
 }
 span{
     font: 300 1rem/1.5 'Quicksand', sans-serif;
@@ -62,7 +61,7 @@ blockquote{
 }
 
 /*----------------------components----------------------*/
-/*header*/
+/*----------------------header----------------------*/
 .header{
     width: 100%;
     max-width: 1000px;
@@ -111,7 +110,7 @@ blockquote{
     color: #ffffff;
     transition: all 0.5s ease-in-out;
 }
-/*footer*/
+/*----------------------footer----------------------*/
 .footer{
     /*justify-self: flex-end;
     position: absolute;
@@ -131,7 +130,7 @@ blockquote{
     color: #eeeeee;
 }
 
-/*----------------------landing page----------------------*/
+/*----------------------back to top button----------------------*/
 .back_to_top{
     position: fixed;
     bottom: 20px;
@@ -297,6 +296,9 @@ blockquote{
     flex-direction: column;
     
 }
+.gallery_intro_box p {
+padding-bottom: 1.5rem;
+}
 /* .gallery_intro{
     width: 100%;
     padding: 0;
@@ -304,40 +306,47 @@ blockquote{
 } */
 .gallery_button{
     align-self: center;
-    height: 30px;
-    width: 30px;
-    transform: rotate(45deg);
-    border-bottom: 5px solid #eeeeee ;
-    border-right: 5px solid #eeeeee ;
-    margin-top: 20px;
-    margin-bottom: auto;
-
+    padding: 40px 30px 60px 30px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 
-    transition: 0.5s ease-out;
 }
-.gallery_button:hover {
-    transform: translateY(5px) rotate(45deg);
+.gallery_button p{
+    color: #666666;
+    padding: 0;
+    margin: 0;
 
-    transition: 0.5s ease-out;
+    transition: 0.2s linear;
 }
-.gallery_button div{
-    display: flex;
-    justify-content: center;
-    transform: rotate(-45deg) translateY(-0px);
+.gallery_button:hover p{
+    color: #eeeeee;
+    padding-top: 0.5rem;
+
+    transition: 0.2s linear;
+}
+.arrow_container{
     width: 0;
     height: 0;
-
-    position: relative;
+    padding: 0;
+    margin: 5px 0 0 0;
 }
-.gallery_button div span{
-    text-align: center;
-    position: relative;
-    bottom: 0;
-    transform: translateY(-1.5rem);
+.arrow{
+    height: 30px;
+    width: 30px;
+    transform: translateY(-50%) translateX(-50%) rotate(45deg);
+    border-bottom: 5px solid #777777 ;
+    border-right: 5px solid #777777 ;
 
+    transition: 0.2s linear;
+}
+.gallery_button:hover .arrow{
+    transform: translateY(-25%) translateX(-50%) rotate(45deg);
+    border-bottom: 5px solid #ffffff ;
+    border-right: 5px solid #ffffff ;
+
+    transition: 0.2s linear;
 }
 .gallery{
     padding: 20px 55px 60px 55px; /*60-5 px*/
@@ -349,8 +358,6 @@ blockquote{
     justify-content: flex-start;
 }
 .preview{
-    /* transition: ease-in 0.5s;
-    outline: 0px solid rgba(255,255,255,0); */
     flex: 1 0 auto;
     margin: 05px;
     cursor: zoom-in;

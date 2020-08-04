@@ -1,16 +1,15 @@
 ---
 layout: "gallery.njk"
-date: "2020-08-03"
-title: "ORDINAIRE(S) URBAIN(S) RURBAIN(S)"
+date: "2020-08-01"
+title: "LA FERME"
 description: ""
 cover : ""
-image_scaling: "90" #en pixel, la taille verticale minimum des images presentes dans la gallery
 products:
 #   les images produits son dans le dossier "products"
 #   - image: nom_de_l_image.jpg
 #   - link: https://www.pcagallery.com/example
   - image: L1010158.jpg
-    link: https://www.pcagalleryart.com/
+    link: https://www.pcagallery.com
 ---
 **...Subtil, délicat, humble,..honnête, tel est JC Pratt !** 
 Il sait comprendre et conjuguer lumières, faits et “poésie”

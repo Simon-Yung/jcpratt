@@ -15,7 +15,7 @@
         {{ content | safe }}
 
         <nav class="chapter_box">       
-        {%- for chapter in collections.galleries %}
+        {%- for chapter in collections.chapters | reverse %}
             <a href="{{ chapter.url }}" class="chapter">{{ chapter.data.title }}</a>
         {%- endfor %}
         </nav>

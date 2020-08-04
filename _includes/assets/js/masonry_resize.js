@@ -2,10 +2,10 @@ function resize(className,scale) {
 
     items = document.getElementsByClassName(className);
     for (i = 0; i < items.length ; i++) {
-        let ratio = ((items[i].naturalWidth / items[i].naturalHeight)* 100  ) *scale
-        let flex = "1 0 " + ratio + "px";
-        console.log(items[i].naturalWidth +'/'+ items[i].naturalHeight +'|'+ ratio + "px")
-        items[i].style.flex = flex ;
+        let ratio = (items[i].naturalWidth / items[i].naturalHeight) * scale
+        let flexBasis = ratio + 'px';
+        items[i].style.flex = flexBasis;
+        items[i].style.flexShrink = '0';
     };
   
 }
@@ -17,20 +17,18 @@ function resizeLastLine() {
     for (i = items.length - 1; i > -1; i--) {
         let currItem = items[i].getBoundingClientRect().top;
         if ( lastItem == currItem) {
-            items[i].style.flexGrow = "0";
-            console.log('true');
+            items[i].style.flexGrow = '0';
         } else{
-            items[i].style.flexGrow = "1";
-            console.log('false');
+            items[i].style.flexGrow = '1';
         }
     };
 }
 
-const scalingRatio = 0.9;
+
 var items;
 window.onload = function(event){
+    const scalingRatio = Number( document.getElementById('gallery').dataset.scalingRatio );
     resize('preview', scalingRatio);
-    console.log( items );
     resizeLastLine();
 };
 

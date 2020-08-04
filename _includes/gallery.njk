@@ -2,7 +2,7 @@
 title: "gallery"
 description: ""
 permalink: "{{page.fileSlug}}/"
-tags: galleries
+tags: chapters
 ---
 <!doctype html>
 <html style="scroll-behavior: smooth;">
@@ -21,14 +21,14 @@ tags: galleries
             {# <div class="gallery_intro"> #}
             {{ content | safe | nl2br }}
             {# </div> #}
-            <a class="gallery_button" href="#gallery"><div><span>Voir&nbsp;la&nbsp;Galerie</span></div></a>
+            <a class="gallery_button" href="#gallery"><p>Voir&nbsp;la&nbsp;Galerie</p><div class="arrow_container"><div class="arrow"></div></div></a>
         </div>
 
-        <div id="gallery" class="gallery">
+        <div id="gallery" class="gallery" data-scaling-ratio="{{image_scaling}}">
             {%- set totalNumberOfImages = ( products | length ) + ( collections[page.fileSlug] | length ) %}
             {%- set offset = products | length %}
         {%- for product in products %}
-            <img class ="preview" src="/products/thumbnails/{{product.image}}" id="{{loop.index}}" onclick="openModalGallery( {{loop.index}} )" 
+            <img class ="preview" src="/galleries/{{page.fileSlug}}/products/thumbnails/{{product.image}}" id="{{loop.index}}" onclick="openModalGallery( {{loop.index}} )" 
             data-pagination="{{loop.index}}/{{totalNumberOfImages}}" data-external-link="{{product.link}}" >
         {%- endfor %}
         {%- for image in collections[page.fileSlug] %}
