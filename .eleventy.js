@@ -38,8 +38,3 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ "products": "products" });
 
 };
-module.exports = {
-    dir: {
-        output: "docs"
-    }
-};
