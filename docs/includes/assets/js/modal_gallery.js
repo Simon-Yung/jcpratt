@@ -11,6 +11,17 @@ const purchaseLink = document.getElementById('purchase_link');
 const numberOfImage = document.getElementsByClassName('preview').length;
 var currentImage ;
 
+//fake loader
+const loader = document.getElementById('spinner');
+function spinIt() {
+    loader.style.opacity = 1;
+    loader.classList.add('spinning');
+    loader.onanimationend = () => {
+        loader.classList.remove('spinning');
+        loader.style.opacity = 0;
+    };
+}
+
 // Modal
 
 function openModalGallery(imageIDNumber) {
@@ -37,6 +48,9 @@ function openModalGallery(imageIDNumber) {
     pagination.innerHTML = img.dataset.pagination;
     image.src = img.src.replace("/thumbnails", "/larges");
     currentImage = imageIDNumber;
+
+    //spinner action
+    spinIt();
 }
 
 //prev and next
