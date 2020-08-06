@@ -213,6 +213,7 @@ blockquote{
 }
 .modal_image{
     margin: auto;
+    object-fit: scale-down;
 
     max-width: 100%;
     max-height: 100%;

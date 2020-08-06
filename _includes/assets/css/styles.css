@@ -197,7 +197,7 @@ blockquote{
     /* padding: 20px 20px 20px 20px; doesn't work on google chrome*/
     background-color: rgba(0,0,0,0.8);
 }
-.modal_image_container{/* FUCK YOU GOOGE CHROME */
+.modal_image_container{/* FUCK YOU GOOGLE CHROME */
     padding: 20px;
     flex: 1 1 auto;
 
@@ -213,6 +213,7 @@ blockquote{
 }
 .modal_image{
     margin: auto;
+    object-fit: scale-down; /* because of the old  */
 
     max-width: 100%;
     max-height: 100%;
