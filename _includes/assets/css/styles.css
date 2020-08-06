@@ -20,7 +20,10 @@ html {
 
 /* <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"> */
 /* font-family: 'Quicksand', sans-serif; */
-
+/* hr {
+    border-top: 1px solid #eeeeee;
+}
+br { content: ""; display: block; margin: 1rem 0; } */
 p,b,small,big,h1,strong,span {
     font-family: 'Quicksand', sans-serif;
     white-space:normal;
@@ -180,49 +183,84 @@ blockquote{
     position: fixed;
     top: 0;
     left: 0;
+
     display: none;
     flex-direction: column;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
+
     z-index: 2;
     width: 100%;
     height: 100%;
-    padding: 20px 20px 20px 20px;
+    max-height: 100%;
+    /* padding: 20px 20px 20px 20px; doesn't work on google chrome*/
     background-color: rgba(0,0,0,0.8);
 }
-.modal_image{
-    max-width: 100%;
+.modal_image_container{/* FUCK YOU GOOGE CHROME */
+    padding: 20px;
+    flex: 1 1 auto;
+
+    width: 100%;
     max-height: 100%;
-    margin: auto;
+    min-height: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     cursor: zoom-out;
 }
+.modal_image{
+    margin: auto;
+
+    max-width: 100%;
+    max-height: 100%;
+
+    min-width: 0;
+    min-height: 0;
+}
 .control_bar{
-    z-index: 4;
+    margin-bottom: 20px;
+
+    flex: 0 1 auto;
+    z-index: 4; /* above the spinner */
     background-color: rgba(0,0,0,0.0);
-    margin-top: 20px;
     width: 100%;
     height: auto;
+
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-evenly;
 }
-.pagination{
+.control_bar .pagination{
     flex:0.12;
-    font: 400 35px/1.5 'Quicksand', sans-serif;
-    font-size: 30px;
+    font: 400 16px/1.0 'Quicksand', sans-serif;
     padding: 5px;
     text-align: center;
 }
 #purchase_link{
-    font: 400 20px/1 'Quicksand', sans-serif;
-    color: #eeeeee;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
 }
+#purchase_link img{
+    height: 20px;
+    padding-right: 10px;
+}
+#purchase_link p{
+    font: 400 14px/1 'Quicksand', sans-serif;
+    color: #a295ff;}
+
+/*
 #purchase_link::after{
     padding-right: 1rem;
     content: url('/includes/assets/images/external_link.png');
-}
+}*/
 .button{
     flex: 0.23;
     height: 100%;
@@ -242,12 +280,10 @@ blockquote{
     transition: ease-in-out 0.5s;
 }
 .button span{
-    font: 300 35px/1 'Quicksand', sans-serif;
+    font: 300 16px/1 'Quicksand', sans-serif;
 }
 .spinner{
     z-index: 3;
-    opacity: 0;
-    z-index: 1;
     position: fixed;
     top: 0%;
     left: 0%;
@@ -257,7 +293,7 @@ blockquote{
     transform: translateX(-50%) translateY(-50%);
 }
 .spinning{
-    animation: 0.6s linear 2 spin , 1.2s linear 1 fade;
+    animation: 0.6s linear 2 spin , 0.8s linear 1 fade;
 }
 @keyframes spin {
     0% {transform:rotate(360deg);}
@@ -325,7 +361,7 @@ blockquote{
     
 }
 .gallery_intro_box p {
-padding-bottom: 1.5rem;
+padding-bottom: 0.5rem;
 }
 /* .gallery_intro{
     width: 100%;
@@ -385,9 +421,11 @@ padding-bottom: 1.5rem;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
+    align-items: stretch;
 }
 .preview{
     flex: 1 0 auto;
+    /* height: auto; */
     margin: 05px;
     cursor: zoom-in;
     outline: 0 solid rgba(255, 255, 255, 0.5);
@@ -429,5 +467,5 @@ padding-bottom: 1.5rem;
     
 }
 .text_box p {
-padding-bottom: 1.5rem;
+padding-bottom: 0.5rem;
 }

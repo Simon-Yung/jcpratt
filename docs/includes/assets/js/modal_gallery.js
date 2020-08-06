@@ -14,11 +14,11 @@ var currentImage ;
 //fake loader
 const loader = document.getElementById('spinner');
 function spinIt() {
-    loader.style.opacity = 1;
+    loader.style.height = "100%";
     loader.classList.add('spinning');
     loader.onanimationend = () => {
         loader.classList.remove('spinning');
-        loader.style.opacity = 0;
+        loader.style.height = "0px";
     };
 }
 
@@ -40,7 +40,7 @@ function openModalGallery(imageIDNumber) {
     if ( img.dataset.externalLink == undefined){
         purchaseLink.style.display = 'none';
     } else{
-        purchaseLink.style.display = 'inline';
+        purchaseLink.style.display = 'flex';
         purchaseLink.href = img.dataset.externalLink;
     }
     //change image, open the modal

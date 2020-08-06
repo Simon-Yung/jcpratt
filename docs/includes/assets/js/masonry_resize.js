@@ -2,10 +2,12 @@ function resize(className,scale) {
 
     items = document.getElementsByClassName(className);
     for (i = 0; i < items.length ; i++) {
-        let ratio = (items[i].naturalWidth / items[i].naturalHeight) * scale
+        let ratio = (items[i].naturalWidth / items[i].naturalHeight) * scale;
         let flexBasis = ratio + 'px';
+        items[i].style.width = flexBasis; //because google won't behave
         items[i].style.flex = flexBasis;
         items[i].style.flexShrink = '0';
+        
     };
   
 }
