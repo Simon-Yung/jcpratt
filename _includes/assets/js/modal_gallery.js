@@ -2,6 +2,7 @@
 // Get the modal gallery by id
 
 const modal = document.getElementById('modal_window');
+const imageContainer = document.getElementById('modal_image_container');
 const image = document.getElementById('modal_image');
 const pagination = document.getElementById('pagination');
 const previous = document.getElementById('previous');
@@ -65,7 +66,7 @@ function nextModal(n) {
 closeButton.addEventListener("click", function(){
   modal.style.display = "none";
 }); 
-image.addEventListener("click", function(){
+imageContainer.addEventListener("click", function(){
   modal.style.display = "none";
 }); 
 previous.addEventListener("click", function(){
