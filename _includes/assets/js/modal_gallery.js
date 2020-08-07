@@ -66,14 +66,14 @@ function nextModal(n) {
 closeButton.addEventListener("click", function(){
   modal.style.display = "none";
 }); 
-imageContainer.addEventListener("click", function(){
-  modal.style.display = "none";
-}); 
 previous.addEventListener("click", function(){
     nextModal(-1);
 }); 
 next.addEventListener("click", function(){
     nextModal(+1);
+}); 
+imageContainer.addEventListener("click", function(){
+  modal.style.display = "none";
 }); 
 
 //disable rightclick menu
