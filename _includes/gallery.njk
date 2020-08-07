@@ -28,7 +28,7 @@ tags: chapters
             {%- set totalNumberOfImages = ( products | length ) + ( collections[page.fileSlug] | length ) %}
             {%- set offset = products | length %}
         {%- for product in products %}
-            <img class ="preview" src="{{website.url}}/galleries/{{page.fileSlug}}/products/thumbnails/{{product.image}}" id="{{loop.index}}" onclick="openModalGallery( {{loop.index}} )" 
+            <img class ="preview" src="{{website.url}}/gallery/{{page.fileSlug}}/products/thumbnails/{{product.image}}" id="{{loop.index}}" onclick="openModalGallery( {{loop.index}} )" 
             data-pagination="{{loop.index}}/{{totalNumberOfImages}}" data-external-link="{{product.link}}" >
         {%- endfor %}
         {%- for image in collections[page.fileSlug] %}
