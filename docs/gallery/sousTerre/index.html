@@ -39,9 +39,9 @@
         <header id="header" class="header">
     <a class="logo" href="https://simon-yung.github.io/jcpratt/">JC&nbsp;Pratt</a>
     <nav class="nav_bar">
-        <a href="https://simon-yung.github.io/jcpratt/home"><span class="nav_item">GALERIES</span></a>
-        <a href="https://simon-yung.github.io/jcpratt/bio"><span class="nav_item">ARTISTE&nbsp;PHOTOGRAPHE</span></a>
-        <a href=""><span class="nav_item">VIDEO</span></a>
+        <a href="https://simon-yung.github.io/jcpratt/gallery"><span class="nav_item">Galleries</span></a>
+        <a href="https://simon-yung.github.io/jcpratt/bio"><span class="nav_item">Artist&nbsp;Photographer</span></a>
+        <a href=""><span class="nav_item">Movies</span></a>
     </nav>
 </header>
 <div class="header_sub_bar"></div>
@@ -67,12 +67,13 @@ Ces photographies nous accompagnent longtemps, toujours, avec simplicité, mais 
             data-pagination="1/1" data-external-link="https://www.pcagallery.com" >
         </div>
         <footer class="footer">
-    <p>©2020 JC Pratt · <a href="mailto:jcpratt@orange.fr " style="color:white">jcpratt@orange.fr</a><p>
+    <p>©2020 JC Pratt · <a href="mailto:jcpratt@orange.fr " style="color:white">jcpratt@orange.fr</a></p>
+    <p><a href="/copyright " style="color:white">Propriété intellectuelle, Droit d'auteur, droit à l'image et règles d'utilisation </a></p>
 </footer>
 <a  href="#header" class="back_to_top"><span></span></a>
         <div id="modal_window" class="modal_window">
     <img src="https://simon-yung.github.io/jcpratt/includes/assets/images/load.png" id="spinner" class="spinner">
-    <div class="modal_image_container">
+    <div class="modal_image_container" id="modal_image_container">
         <img id="modal_image" class="modal_image"  src="">
     </div>
     <div class="control_bar">
@@ -87,6 +88,12 @@ Ces photographies nous accompagnent longtemps, toujours, avec simplicité, mais 
         <div id="next" class="next button "><span>  &#187; </span></div>
         <div id="close" class="close button "><span> X </span></div>
     </div>
+    <div id="contextual_menu">
+        <span id="menu_previous" >Previous</span>
+        <span id="menu_next" >Next</span>
+        <span id="menu_close" >Close</span>
+    </div>
 </div>
+
     </body>
 </html>

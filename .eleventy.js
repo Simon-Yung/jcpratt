@@ -10,14 +10,14 @@ function searchByGlob(glob){
 module.exports = function(eleventyConfig) {
 
     //get every folders in /galleries
-    const galleries =  fg.sync('galleries/*', { onlyDirectories: true, deep: 0 });
+    const galleries =  fg.sync('gallery/*', { onlyDirectories: true, deep: 0 });
 
     //for each of the folder
     galleries.forEach(
         function (value) {
 
             //create a collection named as the folder 's name
-            let title = value.replace('galleries/','');
+            let title = value.replace('gallery/','');
 
             eleventyConfig.addCollection( title, function(collectionApi) {
 
@@ -34,7 +34,6 @@ module.exports = function(eleventyConfig) {
 
     //pass through copy for css javascript and internal images
     eleventyConfig.addPassthroughCopy({ "_includes/assets": "includes/assets" });
-    eleventyConfig.addPassthroughCopy({ "galleries": "galleries" });
-    eleventyConfig.addPassthroughCopy({ "products": "products" });
+    eleventyConfig.addPassthroughCopy({ "gallery": "gallery" });
 
 };

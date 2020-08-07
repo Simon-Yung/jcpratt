@@ -2,12 +2,12 @@ function resize(className,scale) {
 
     items = document.getElementsByClassName(className);
     for (i = 0; i < items.length ; i++) {
-        let ratio = (items[i].naturalWidth / items[i].naturalHeight) * scale;
+        let ratio = (items[i].naturalWidth * scale / items[i].naturalHeight);
         let flexBasis = ratio + 'px';
         items[i].style.width = flexBasis; //because google won't behave
         items[i].style.flex = flexBasis;
+        items[i].style.flexGrow = ratio;
         items[i].style.flexShrink = '0';
-        
     };
   
 }
@@ -21,7 +21,7 @@ function resizeLastLine() {
         if ( lastItem == currItem) {
             items[i].style.flexGrow = '0';
         } else{
-            items[i].style.flexGrow = '1';
+            //nothing
         }
     };
 }
