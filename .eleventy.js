@@ -10,7 +10,7 @@ function searchByGlob(glob){
 module.exports = function(eleventyConfig) {
 
     //get every folders in /galleries
-    const galleries =  fg.sync('gallery/*', { onlyDirectories: true, deep: 0 });
+    const galleries =  fg.sync('gallery/*', { onlyDirectories: true, deep: 0 , dot: false });
 
     //for each of the folder
     galleries.forEach(

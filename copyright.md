@@ -6,7 +6,26 @@ image: ""
 description: |-
     Photographe professionnel auteur, membre de l'UPP est à votre disposition pour vos projets photographiques : photos d'intérieur, architecture, industrie, portraits, prises de vue de spectacle, photos aériennes, illustrations. CONTACT : + 33 (0) 6 82 43 56 79 jcpratt@orange.fr 
 ---
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+Les photos présentes sur notre site **ne sont pas libres de droit**. Toute copie et/ou utilisation sans accord préalable est strictement interdite. (CPI articles L.111-1 et suivants) © JCPRATT PHOTOGRAPHE 2017  
+**LA CONTREFAÇON EST UN DÉLIT. MERCI DE RESPECTER MES DROITS D'AUTEUR OU CEUX DES PERSONNES DONT JE FIGURE LE TRAVAIL.**  
+SIRET : 335 253 316 00038 ; APE 9003B   
+Pour les Tirages d'Art (Edition Limitée), Certifiés, Signés par l'Artiste, veuillez contacter pcagalleryart.comAlicante, Espagne / Niort, France. pcagalleryart@gmail.com  
 
-"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-Traduction de H. Rackham (1914)
+---------------------------------
+
+&nbsp;
+
+The photos on our site are **not copyright-free**. Any copy and/or use without prior agreement is strictly forbidden. (CPI articles L.111-1 and following) © JCPRATT PHOTOGRAPHE 2017 
+**COUNTERFEITING IS A CRIME. PLEASE RESPECT MY COPYRIGHTS OR THOSE OF THE PEOPLE WHOSE WORK I FEATURE.**  
+SIRET : 335 253 316 00038 ; APE 9003B    
+For Art Prints (Limited Edition), Certified, Signed by the Artist, please contact pcagalleryart.com Alicante, Spain / Niort, France. pcagalleryart@gmail.com
+
+
+-------------------------------
+
+&nbsp;
+
+Las fotos de nuestro sitio **están amparado por las normas de protección de los derechos de autor**. Cualquier copia y/o uso sin acuerdo previo está estrictamente prohibido. (CPI artículos L.111-1 y siguientes) © JCPRATT PHOTOGRAPHE 2017  
+**LA FALSIFICACIÓN ES UN CRIMEN. POR FAVOR, RESPETEN MIS DERECHOS DE AUTOR O LOS DE LAS PERSONAS CUYO TRABAJO PRESENTO.**  
+SIRET : 335 253 316 00038 ; APE 9003B  
+Para Impresiones de Arte (Edición Limitada), Certificadas, Firmadas por el Artista, por favor contacte pcagalleryart.com Alicante, España / Niort, Francia. pcagalleryart@gmail.com  

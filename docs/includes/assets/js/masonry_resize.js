@@ -1,5 +1,8 @@
 function resize(className,scale) {
 
+    //i could have remade this toonly set flex basis and a width 
+    //and just call resize last line to resize flex growth
+
     items = document.getElementsByClassName(className);
     for (i = 0; i < items.length ; i++) {
         let ratio = (items[i].naturalWidth * scale / items[i].naturalHeight);
@@ -12,7 +15,9 @@ function resize(className,scale) {
   
 }
 
-function resizeLastLine() {
+function resizeLastLine(scale) {
+
+    //this function really resize everything not just the last line, it just prevent the last one from growing
 
     let lastItem = items[items.length - 1].getBoundingClientRect().top;
 
@@ -20,16 +25,17 @@ function resizeLastLine() {
         let currItem = items[i].getBoundingClientRect().top;
         if ( lastItem == currItem) {
             items[i].style.flexGrow = '0';
-        } else{
-            //nothing
+        } else {
+
+            let ratio = (items[i].naturalWidth * scale / items[i].naturalHeight);
+            items[i].style.flexGrow = ratio;
         }
     };
 }
 
-
 var items;
+const scalingRatio = Number( document.getElementById('gallery').dataset.scalingRatio );
 window.onload = function(event){
-    const scalingRatio = Number( document.getElementById('gallery').dataset.scalingRatio );
     resize('preview', scalingRatio);
     resizeLastLine();
 };
@@ -38,9 +44,7 @@ window.onload = function(event){
 var myEfficientFn = debounce(function() {
 
     //actual work goes here vvv
-    
-        resizeLastLine();
-    
+        resizeLastLine(scalingRatio);
     //actual work goes here ^^^
     
     }, 250);

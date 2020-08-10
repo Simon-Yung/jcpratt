@@ -22,8 +22,11 @@ html {
 /* font-family: 'Quicksand', sans-serif; */
 /* hr {
     border-top: 1px solid #eeeeee;
+} */
+hr{
+	width: 60px;
+	margin: 0 auto 1.25rem auto;
 }
-br { content: ""; display: block; margin: 1rem 0; } */
 p,b,small,big,h1,strong,span {
     font-family: 'Quicksand', sans-serif;
     white-space:normal;
@@ -404,7 +407,10 @@ blockquote{
     
 }
 .gallery_intro_box p {
-padding-bottom: 0.5rem;
+    margin-bottom: 1.25rem;
+}
+.gallery_intro_box hr {
+    margin: 0 auto 1.25rem auto;
 }
 /* .gallery_intro{
     width: 100%;

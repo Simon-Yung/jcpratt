@@ -16,7 +16,7 @@
 
         <nav class="chapter_box">       
         {%- for chapter in collections.chapters | reverse %}
-            <a href="{{ website.url }}{{ chapter.url }}" class="chapter">{{ chapter.data.title }}</a>
+            <a href="{{ website.url }}{{ chapter.url }}" class="chapter">{{ chapter.data.title | upper }}</a>
         {%- endfor %}
         </nav>
 

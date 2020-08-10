@@ -43,7 +43,7 @@ function openModalGallery(imageIDNumber) {
     if ( imageIDNumber > numberOfImage ) { imageIDNumber = 1; }
     let img;
     img = document.getElementById(imageIDNumber);
-    //animated the preview when clicked
+    //animate the preview when clicked
     img.classList.add("zoom");
     img.onanimationend = () => {
         img.classList.remove("zoom");
