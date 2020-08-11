@@ -10,3 +10,18 @@ products:
 #   - image: nom_de_l_image.jpg
 #     link: https://www.pcagallery.com/example
 ---
+**PORTRAITS**
+
+Quel bonheur de découvrir que quelques vies ordinaires sont les nôtres dans les regards, postures ou architectures de visages que ces portraits révèlent; Quel bonheur que conjugue nombre de petits détails et qui se manifestant, nous ajoutent une pensée, un regard,...
+
+/
+
+**PORTRAITS**
+
+What a delight to discover some ordinary lives which are ours in the eyes, facial postures or architectures which these portraits reveal; What pleasure conjugated and manifested by small details, suggesting a thought, a glance,...
+
+/
+
+**PORTRAITS**
+
+Qué alegría descubrir que algunas vidas ordinarias son nuestras en a las miradas, las posturas faciales o las arquitecturas que estos retratos revelan; Qué felicidad que muchos pequeños detalles se combinen y se manifiesten, nos agregan un pensamiento, una mirada,...

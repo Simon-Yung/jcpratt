@@ -10,3 +10,18 @@ products:
 #   - image: nom_de_l_image.jpg
 #     link: https://www.pcagallery.com/example
 ---
+**TRACES DE TERRES**
+
+Doit-on aller si haut pour voir comment nos territoires, notre terre est disséquée, charcutée, disséquée,..., Et si l'esthétisme de ces Traces de Terres, nous proposait un impressionnisme abstrait nous autorisant à voir et comprendre... 
+
+/
+
+**TRACES DE TERRES**
+
+Do we need to go so high to see how our territories, our land is dissected, cut up, peeled,..., And if the aesthetics of these Traces de Terres, exposed an abstract impressionism allowing us to observe and understand... 
+
+/
+
+**TRACES DE TERRES**
+
+Tenemos que ir tan alto para ver cómo nuestros territorios, nuestra tierra es disecada, cortada, pelada,..., Y si la estética de estas Traces de Terres, nos proponía un impresionismo abstracto que nos permite observar y entender? 

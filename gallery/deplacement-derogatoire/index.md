@@ -10,6 +10,8 @@ products:
 #   - image: nom_de_l_image.jpg
 #     link: https://www.pcagallery.com/example
 ---
+**DÉPLACEMENT DÉROGATOIRE**
+
 J'habite un Lieu qui existe vraiment !  
 Devrais je en douter ?  
 Nous habitons des Lieux qui existent vraiment !!  
@@ -24,11 +26,13 @@ telle une Place Publique où les Vies se constituent et s'exercent.
 
 Si quelques circonstances extraordinaires ont contraint nos vies sociales ;  
 si nos vies ont été politiquement obligées à se distancier socialement;  
-rien de ce qui a vraiment existé n'a conduit aux arrêts de rigueur et autres suspicions de futur improbable.
+rien de ce qui a vraiment existé n'a conduit aux arrêts de rigueur et autres suspicions de futur improbable.  
 
 La Vie, la Nature sont plus fortes que tout ; Devrions nous en douter ?...  
 
-&nbsp;
+/
+
+**DÉPLACEMENT DÉROGATOIRE**
 
 I live in a Place that truly exists !  
 Should I doubt it ?  
@@ -48,7 +52,9 @@ nothing that has truly existed has led to austerity decrees and other omens of a
 
 Life, Nature are stronger than anything else; should we doubt it?....  
 
-&nbsp;
+/
+
+**DÉPLACEMENT DÉROGATOIRE**
 
 ¡Vivo en un lugar que realmente existe !  
 ¿Debiera dudarlo ?  
