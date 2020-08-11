@@ -26,6 +26,7 @@ And why appear to be disdained by those who have not been elected and, forgotten
 What a Display of inconsistency, irony, hypocrisy..
 
 /
+
 **ÉLECTION PRÉSDENTIELLE 2017**
 
 ¿Y por qué votar de nuevo?  

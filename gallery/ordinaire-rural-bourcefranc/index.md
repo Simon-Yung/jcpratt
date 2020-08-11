@@ -1,10 +1,10 @@
----
+﻿---
 layout: "gallery.njk"
 date: "2020-01-29"
 title: "Ordinaire Rural (Bourcefranc le Chapus)"
 description: ""
 cover : ""
-image_scaling: "90" #en pixel, la taille verticale minimum des images presentes dans la gallery
+image_scaling: "95" #en pixel, la taille verticale minimum des images presentes dans la gallery
 products:
 #   les images produits son dans le dossier "products"
 #   - image: nom_de_l_image.jpg

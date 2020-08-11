@@ -4,7 +4,7 @@ date: "2020-01-31"
 title: "Ordinaire Urbain (Architecture)"
 description: ""
 cover : ""
-image_scaling: "100" #en pixel, la taille verticale minimum des images presentes dans la gallery
+image_scaling: "105" #en pixel, la taille verticale minimum des images presentes dans la gallery
 products:
 #   les images produits son dans le dossier "products"
 #   - image: nom_de_l_image.jpg
