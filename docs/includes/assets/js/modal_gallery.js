@@ -63,6 +63,8 @@ function openModalGallery(imageIDNumber) {
 
 	//spinner action
 	spinIt();
+
+	document.body.style.overflow = 'hidden';
 }
 
 //prev and next
@@ -115,13 +117,15 @@ menu_next.addEventListener( 'click' , function(event) {
 menu_close.addEventListener( 'click' , function(event) {
 	modal.style.display = "none";
 	modalIsOpen = false;
+	document.body.style.removeProperty('overflow');
 });
 
 // MODAL CONTROLS
 
 closeButton.addEventListener("click", function(){
 	modal.style.display = "none";
-	modalIsOpen = false;
+	modalIsOpen = false;document.body.style.removeProperty('overflow');
+
 }); 
 previous.addEventListener("click", function(){
 	  nextModal(-1);
@@ -132,8 +136,9 @@ next.addEventListener("click", function(){
 imageContainer.addEventListener("click", function(){
 	if (!menuIsVisible){
 		modal.style.display = "none";
+		modalIsOpen = false;
+		document.body.style.removeProperty('overflow');
 	}
-	modalIsOpen = false;
 }); 
 
 //update buy text
