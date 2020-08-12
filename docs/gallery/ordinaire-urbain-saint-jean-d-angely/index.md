@@ -12,16 +12,16 @@ products:
 ---
 **ORDINAIRE URBAIN (SAINT-JEAN D'ANGELY)**
 
-Qu'est ce qu'un Ordinaire Urbain, aujourd'hui . Un univers plus jamais (Actuel), ? Un lieu sans bruit ni fureur de vivre, où les temps s'émancipent de présent, ou refusent de destiner un futur : Un lieu de Vie ou le centre n’existent plus ; peut-être ! Et sans doute et-ce là on quotidien... 
+Qu'est ce qu'un Ordinaire Urbain, aujourd'hui. Un univers plus jamais (Actuel), ? Un lieu sans bruit ni fureur de vivre, où les temps s'émancipent de présent, ou refusent de destiner un futur. Un lieu de Vie ou le centre n’existent plus ; peut-être ! Et sans doute est-ce là son quotidien...  
 
 /
 
 **ORDINAIRE URBAIN (SAINT-JEAN D'ANGELY)**
 
-What's an Urban Ordinarity, today. A Universe Never (Current Again), ? A place without noise nor fury for life, in which times emancipate themselves from the present, or refuse to choose a future: A place of Life in which the center no longer exist; perhaps! And is this, undoubtedly, a way of life... 
+What's an Urban Ordinarity, today. A Universe Never (Current Again), ? A place without noise nor fury for life, in which times emancipate themselves from the present, or refuse to choose a future: A place of Life in which the center no longer exist; perhaps! And is this, undoubtedly, its way of life...  
 
 /
 
 **ORDINAIRE URBAIN (SAINT-JEAN D'ANGELY)**
 
-Que es un Ordinario Urbano, hoy en día. Un universo (actual) nunca más, ? Un lugar sin ruido ni furia de vivir, donde los tiempos se emancipan del presente, o niegan a destinar un futuro: Un lugar de vida donde el centro ya no existe; ¡quizás! Y serìa sin duda una vida cotidiana... 
+Que es un Ordinario Urbano, hoy en día. Un universo (actual) nunca más, ? Un lugar sin ruido ni furia de vivir, donde los tiempos se emancipan del presente, o niegan a destinar un futuro: Un lugar de vida donde el centro ya no existe; ¡quizás! Y serìa, sin duda, su vida cotidiana...  

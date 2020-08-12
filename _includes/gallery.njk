@@ -3,38 +3,39 @@ title: "gallery"
 description: ""
 permalink: "gallery/{{page.fileSlug}}/"
 tags: chapters
+buy_text: "Tirage d'Art / 1/3 / pcagalleryart"
 ---
 <!doctype html>
 <html style="scroll-behavior: smooth;">
-    <head>
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" href="{{website.url}}/includes/assets/css/styles.css">
-        <script src="{{website.url}}/includes/assets/js/modal_gallery.js" defer> </script>
-        <script src="{{website.url}}/includes/assets/js/masonry_resize.js" defer> </script>
-        {% include "components/metadata.njk" %}
-    </head>
-    <body class="gallery_page">
+	<head>
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" href="{{website.url}}/includes/assets/css/styles.css">
+		<script src="{{website.url}}/includes/assets/js/modal_gallery.js" defer> </script>
+		<script src="{{website.url}}/includes/assets/js/masonry_resize.js" defer> </script>
+		{% include "components/metadata.njk" %}
+	</head>
+	<body class="gallery_page">
 
-        {% include "components/header.njk" %}
+		{% include "components/header.njk" %}
 
-        <div class="gallery_intro_box">
-            {{ content | safe  }}
-            <a class="gallery_button" href="#gallery"><p>Gallery</p><div class="arrow_container"><div class="arrow"></div></div></a>
-        </div>
+		<div class="gallery_intro_box">
+			{{ content | safe  }}
+			<a class="gallery_button" href="#gallery"><p>Gallery</p><div class="arrow_container"><div class="arrow"></div></div></a>
+		</div>
 
-        <div id="gallery" class="gallery" data-scaling-ratio="{{image_scaling}}">
-            {%- set totalNumberOfImages = ( products | length ) + ( collections[page.fileSlug] | length ) %}
-            {%- set offset = products | length %}
-        {%- for product in products %}
-            <img class ="preview" src="{{website.url}}/gallery/{{page.fileSlug}}/products/thumbnails/{{product.image}}" id="{{loop.index}}" onclick="openModalGallery( {{loop.index}} )" 
-            data-pagination="{{loop.index}}/{{totalNumberOfImages}}" data-external-link="{{product.link}}" >
-        {%- endfor %}
-        {%- for image in collections[page.fileSlug] %}
-            <img class ="preview" src="{{website.url}}/{{image}}" id="{{loop.index + offset}}" onclick="openModalGallery( {{loop.index + offset}} )" 
-            data-pagination="{{loop.index + offset}}/{{totalNumberOfImages}}">
-        {%- endfor %}
-        </div>
-        {% include "components/footer.njk" %}
-        {% include "components/modal.njk" %}
-    </body>
+		<div id="gallery" class="gallery" data-scaling-ratio="{{image_scaling}}" data-buy-text="{{buy_text}}">
+			{%- set totalNumberOfImages = ( products | length ) + ( collections[page.fileSlug] | length ) %}
+			{%- set offset = products | length %}
+		{%- for product in products %}
+			<img class ="preview" src="{{website.url}}/gallery/{{page.fileSlug}}/products/{{product.image}}" id="{{loop.index}}" onclick="openModalGallery( {{loop.index}} )" 
+			data-pagination="{{loop.index}}/{{totalNumberOfImages}}" data-external-link="{{product.link}}" >
+		{%- endfor %}
+		{%- for image in collections[page.fileSlug] %}
+			<img class ="preview" src="{{website.url}}/{{image}}" id="{{loop.index + offset}}" onclick="openModalGallery( {{loop.index + offset}} )" 
+			data-pagination="{{loop.index + offset}}/{{totalNumberOfImages}}">
+		{%- endfor %}
+		</div>
+		{% include "components/footer.njk" %}
+		{% include "components/modal.njk" %}
+	</body>
 </html>

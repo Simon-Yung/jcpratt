@@ -9,6 +9,8 @@ products:
 #   les images produits son dans le dossier "products"
 #   - image: nom_de_l_image.jpg
 #     link: https://www.pcagallery.com/example
+   - image: TracesdeSable---1120271.jpg
+     link: https://www.pcagalleryart.com/product-page/traces-de-sable-1120271-certified-signed-1-30
 ---
 **TRACES DE SABLE**
 

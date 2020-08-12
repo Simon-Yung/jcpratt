@@ -12,7 +12,7 @@ products:
 ---
 **PORTRAITS**
 
-Quel bonheur de découvrir que quelques vies ordinaires sont les nôtres dans les regards, postures ou architectures de visages que ces portraits révèlent; Quel bonheur que conjugue nombre de petits détails et qui se manifestant, nous ajoutent une pensée, un regard,...
+Quel bonheur de découvrir que quelques vies ordinaires sont les nôtres dans les regards, postures ou architectures de visages que ces portraits révèlent. Quel bonheur que conjugue nombre de petits détails et qui, se manifestant, nous ajoutent une pensée, un regard,...
 
 /
 

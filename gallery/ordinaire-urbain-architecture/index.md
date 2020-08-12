@@ -12,7 +12,7 @@ products:
 ---
 **ORDINAIRE URBAIN (ARCHITECTURE)**
 
-Trop souvent les circonstances opérationnelles de nos vies urbaines nous sont imposées !  Ce fait de Voir nos Vies,  notre Cadre de Vie est un effort supplémentaire....  
+Trop souvent les circonstances opérationnelles de nos vies urbaines nous sont imposées ! Ce fait de Voir nos Vies, notre Cadre de Vie est un effort supplémentaire....  
 Quelques perspectives ressenties suggèrent avec cette collection que les esthétiques soumises ne semblent pas vraiment naturelles, pour le moins humanistes.  
 
 /
