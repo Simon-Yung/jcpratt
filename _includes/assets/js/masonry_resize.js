@@ -10,7 +10,7 @@ function resize(className,scale) {
 		items[i].style.width = flexBasis; //because google won't behave
 		items[i].style.flex = flexBasis;
 		items[i].style.flexGrow = ratio;
-		items[i].style.flexShrink = '0';
+		items[i].style.flexShrink = '1';
 	};
   
 }

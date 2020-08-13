@@ -12,20 +12,17 @@ products:
 ---
 **ORDINAIRE URBAIN (ARCHITECTURE)**
 
-Trop souvent les circonstances opérationnelles de nos vies urbaines nous sont imposées ! Ce fait de Voir nos Vies, notre Cadre de Vie est un effort supplémentaire....  
-Quelques perspectives ressenties suggèrent avec cette collection que les esthétiques soumises ne semblent pas vraiment naturelles, pour le moins humanistes.  
+Trop souvent les circonstances opérationnelles de nos vies urbaines nous sont imposées ! Ce fait de Voir nos Vies, notre Cadre de Vie est un effort supplémentaire.... Quelques perspectives ressenties suggèrent avec cette collection que les esthétiques soumises ne semblent pas vraiment naturelles, pour le moins humanistes.  
 
 /
 
 **ORDINAIRE URBAIN (ARCHITECTURE)**
 
-Too often the operational circumstances of our urban lives are imposed on us! This fact of Seeing our Lives, our Living Environment is an additional effort ....  
-Some perceptions suggest with this collection that the submissive aesthetics do not seem really natural, to say the least humanistic.  
+Too often the operational circumstances of our urban lives are imposed on us! This fact of Seeing our Lives, our Living Environment is an additional effort .... Some perceptions suggest with this collection that the submissive aesthetics do not seem really natural, to say the least humanistic.  
 
 /
 
 **ORDINAIRE URBAIN (ARCHITECTURE)**
 
-¡Con demasiada frecuencia se nos imponen las circunstancias operativas de nuestras vidas urbanas! Este hecho de ver nuestras vidas, nuestro entorno de vida es un esfuerzo adicional ...  
-Algunas percepciones que se sienten sugieren con esta colección que la estética sumisa no parece realmente natural, por decir lo menos humanista.  
+¡Con demasiada frecuencia se nos imponen las circunstancias operativas de nuestras vidas urbanas! Este hecho de ver nuestras vidas, nuestro entorno de vida es un esfuerzo adicional ... Algunas percepciones que se sienten sugieren con esta colección que la estética sumisa no parece realmente natural, por decir lo menos humanista.  
 

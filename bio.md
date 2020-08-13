@@ -1,11 +1,17 @@
 ---
 title: Home
-layout: text.njk
+layout: blank.njk
 lang: fr
 image: ""
 description: |-
     Photographe professionnel auteur, membre de l'UPP est à votre disposition pour vos projets photographiques : photos d'intérieur, architecture, industrie, portraits, prises de vue de spectacle, photos aériennes, illustrations. CONTACT : + 33 (0) 6 82 43 56 79 jcpratt@orange.fr 
 ---
+<div class="banner_container">
+	<img class="banner"  src="{{website.url}}/includes/assets/images/JCP3.jpg" >
+</div>
+
+<div class="text_box" style="padding-top:30px">
+
 **...Subtil, délicat, humble,..honnête, tel est JC Pratt !**  
 Il sait comprendre et conjuguer lumières, faits et “poésie”  
 Ces images ne donnent aucune leçon, elles sont là !, et, cependant elles nous interpellent, nous séduisent.  
@@ -13,7 +19,7 @@ Urbaine, Rurale, Végétale, “littoral*, ses photographies ne nous jugent pas 
 Il possède c'est indéniable, ce don “..A la fin de l'envoi, je touche...”  
 Ces photographies nous accompagnent longtemps, toujours, avec simplicité, mais évidence !  
 
-&nbsp;
+/
 
 **...Subtle, delicate, humble, .. honest, this is JC Pratt!**  
 He knows how to understand and conjugate lights, facts and "poetry"  
@@ -22,7 +28,7 @@ Urban, Rural, Vegetal, "littoral", his photographs do not judge us; **he gives u
 He possesses, it is undeniable, this gift ".. A la fin de l'envoi, je touche …"  
 These photographs accompany us a long time, always, with simplicity, but obviously!  
 
-&nbsp;
+/
 
 **...Sutil, delicado, humilde, .. honesto, este es JC Pratt!**  
 Sabe entender y conjugar luces, hechos y "poesía".  
@@ -30,3 +36,5 @@ Estas imágenes no dan ninguna lección, están allí y, sin embargo, nos desaf�
 Urbano, Rural, Vegetal, "litoral", sus fotografías no nos juzgan; **¡Nos da a recibir lo que ve!**  
 Él lo posee, es innegable, este regalo "... Al final del envío, lo toco …"  
 Estas fotografías nos acompañan desde hace mucho tiempo, siempre, con sencillez, pero obviamente!  
+
+</div>
