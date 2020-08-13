@@ -83,6 +83,7 @@ body{
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
+	height: auto;
 }
 .header_inner{
 	width: 100%;
@@ -395,6 +396,7 @@ body{
 	flex-wrap: nowrap;
 	justify-content: flex-start;
 	align-items: center;
+	padding: 60px 0 60px 0;
 }
 .chapter {
 	font: 300 1.25rem/1.25 'Quicksand', sans-serif;
