@@ -35,6 +35,7 @@ module.exports = function(eleventyConfig) {
 	//pass through copy for css javascript and internal images
 	eleventyConfig.addPassthroughCopy({ "_includes/assets": "includes/assets" });
 	eleventyConfig.addPassthroughCopy({ "gallery": "gallery" });
+	eleventyConfig.addPassthroughCopy({ "movies": "movies" });
 	eleventyConfig.addPassthroughCopy({ "favicon.ico": "favicon.ico" });
 	eleventyConfig.addPassthroughCopy({ "favicon.png": "favicon.png" });
 
