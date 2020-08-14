@@ -35,5 +35,6 @@ module.exports = function(eleventyConfig) {
 	//pass through copy for css javascript and internal images
 	eleventyConfig.addPassthroughCopy({ "_includes/assets": "includes/assets" });
 	eleventyConfig.addPassthroughCopy({ "gallery": "gallery" });
+	eleventyConfig.addPassthroughCopy({ "movies": "movies" });
 
 };
