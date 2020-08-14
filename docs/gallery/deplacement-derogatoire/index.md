@@ -2,7 +2,7 @@
 layout: "gallery.njk"
 date: "2020-01-26"
 title: "Déplacement Dérogatoire"
-description: ""
+description: "Si quelques circonstances extraordinaires ont contraint nos vies sociales; si nos vies ont été politiquement obligées à se distancier socialement; rien de ce qui a vraiment existé n'a conduit aux arrêts de rigueur et autres suspicions de futur improbable"
 cover : ""
 image_scaling: "130" #en pixel, la taille verticale minimum des images presentes dans la gallery
 products:

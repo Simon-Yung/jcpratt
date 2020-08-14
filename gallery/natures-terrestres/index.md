@@ -2,7 +2,7 @@
 layout: "gallery.njk"
 date: "2020-01-21"
 title: "Nature(s) Terrestre(s)"
-description: ""
+description: "Si foisonnante, parfois envahissante, quelques fois, Hélas, définitivement asséchée de convoitise et d'inconscience extrême... La Nature est belle, extravagante, attirante... Si fondamentale!"
 cover : ""
 image_scaling: "125" #en pixel, la taille verticale minimum des images presentes dans la gallery
 products:

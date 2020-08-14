@@ -2,7 +2,7 @@
 layout: "gallery.njk"
 date: "2020-01-25"
 title: "Sous Terre(s) (Architecture)"
-description: ""
+description: "Notre regard résonne en silence, avec discrétion et probablement une extrême humilité ou timidité devant cette puissance grise, froide, puissante..."
 cover : "" #250px vvvvv
 image_scaling: "150" #en pixel, la taille verticale minimum des images presentes dans la gallery
 products:

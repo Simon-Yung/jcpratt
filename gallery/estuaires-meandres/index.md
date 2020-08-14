@@ -2,7 +2,7 @@
 layout: "gallery.njk"
 date: "2020-01-19"
 title: "Estuaires / Méandres"
-description: ""
+description: "Que ces espaces semblent loin de nous... Que ces espaces semblent immenses, indéfinis... Que ces Territoires semblent des Espaces à parts entières !! Pour le moins ils sont beaux et définitivement fantastiques..."
 cover : ""
 image_scaling: "90" #en pixel, la taille verticale minimum des images presentes dans la gallery
 products:

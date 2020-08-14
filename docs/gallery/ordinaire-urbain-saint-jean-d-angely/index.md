@@ -2,7 +2,7 @@
 layout: "gallery.njk"
 date: "2020-01-30"
 title: "Ordinaire Urbain (Saint-Jean d'Angely)"
-description: ""
+description: "Qu'est ce qu'un Ordinaire Urbain aujourd'hui? Un univers plus jamais (Actuel)? Un lieu sans bruit ni fureur de vivre, où les temps s'émancipent de présent, ou refusent de destiner un futur. Un lieu de Vie ou le centre n’existent plus; peut-être! Et sans doute est-ce là son quotidien..."
 cover : ""
 image_scaling: "150" #en pixel, la taille verticale minimum des images presentes dans la gallery
 products:

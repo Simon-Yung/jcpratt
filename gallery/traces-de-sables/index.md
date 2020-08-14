@@ -2,7 +2,7 @@
 layout: "gallery.njk"
 date: "2020-01-23"
 title: "Traces de Sable"
-description: ""
+description: "Sculptures, sans cesse remodelées, renouvelées, par les vents, le regard, les lumières, l'inspiration... Nulle Chose n’existe qui n'en touche une autre..."
 cover : "" #250 vvvv
 image_scaling: "150" #en pixel, la taille verticale minimum des images presentes dans la gallery
 products:

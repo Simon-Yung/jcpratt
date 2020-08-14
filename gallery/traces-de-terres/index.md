@@ -2,7 +2,7 @@
 layout: "gallery.njk"
 date: "2020-01-22"
 title: "Traces de Terres"
-description: ""
+description: "Doit-on aller si haut pour voir comment nos territoires, notre terre est disséquée, charcutée? Et si l'esthétisme de ces Traces de Terres, nous proposait un impressionnisme abstrait nous autorisant à voir et comprendre"
 cover : ""
 image_scaling: "130" #en pixel, la taille verticale minimum des images presentes dans la gallery
 products:

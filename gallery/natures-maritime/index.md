@@ -2,7 +2,7 @@
 layout: "gallery.njk"
 date: "2020-01-20"
 title: "Nature(s) Maritime(s)"
-description: ""
+description: "Là, là ou là encore... Ici, ici et ici toujours... Étonnante, oubliée, abandonnée et cependant, belle, définitivement belle !! Extraordinaire belle; Belle par Nature..."
 cover : ""
 image_scaling: "90" #en pixel, la taille verticale minimum des images presentes dans la gallery
 products:

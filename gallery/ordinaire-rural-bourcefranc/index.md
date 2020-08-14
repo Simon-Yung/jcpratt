@@ -2,7 +2,7 @@
 layout: "gallery.njk"
 date: "2020-01-29"
 title: "Ordinaire Rural (Bourcefranc le Chapus)"
-description: ""
+description: "Et pourquoi ne pas considérer ces espaces indépendants, différents, sans doute autonomes et libres. Ils sont là, en zone stratégique, on les voit; ils demeurent à découvrir; souvent ils sont un paragraphe important."
 cover : ""
 image_scaling: "95" #en pixel, la taille verticale minimum des images presentes dans la gallery
 products:

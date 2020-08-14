@@ -2,7 +2,7 @@
 layout: "gallery.njk"
 date: "2020-01-24"
 title: "Sous Terre(s) (Carrières)"
-description: ""
+description: "Et l'homme a agit; les Machines ont épluché, disséqué, emporté quelques morceaux de Terre, pour construire ailleurs, au grand jour, nos maisons, nos routes et nos Vies... Quel progrès pour Sapiens Sapiens..."
 cover : ""
 image_scaling: "130" #en pixel, la taille verticale minimum des images presentes dans la gallery
 products:

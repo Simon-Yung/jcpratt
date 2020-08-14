@@ -2,7 +2,7 @@
 layout: "gallery.njk"
 date: "2020-01-28"
 title: "Ordinaire Rural (La Ferme)"
-description: ""
+description: "Et combien d'images nous reviennent indispensables à nos présents...Cette mémoire, ces odeurs, ces habitudes, ses silences, ses (Vastitudes)...Et toujours... pour nous, la Ferme... Lieu où tout coexiste semble t-il..."
 cover : ""
 image_scaling: "105" #en pixel, la taille verticale minimum des images presentes dans la gallery
 buy_text: "Tirage d'Art / 1/10 / pcagalleryart"

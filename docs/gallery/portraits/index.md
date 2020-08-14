@@ -2,7 +2,7 @@
 layout: "gallery.njk"
 date: "2020-01-27"
 title: "Portraits"
-description: ""
+description: "Quel bonheur de découvrir que quelques vies ordinaires sont les nôtres dans les regards, postures ou architectures de visages que ces portraits révèlent. Quel bonheur que conjugue nombre de petits détails et qui, se manifestant, nous ajoutent une pensée, un regard..."
 cover : "" # 250px height vvv
 image_scaling: "150" #en pixel, la taille verticale minimum des images presentes dans la gallery
 products:

@@ -3,8 +3,8 @@ title: Droits d'Auteur
 layout: text.njk
 lang: fr
 image: ""
-description: |-
-    Photographe professionnel auteur, membre de l'UPP est à votre disposition pour vos projets photographiques : photos d'intérieur, architecture, industrie, portraits, prises de vue de spectacle, photos aériennes, illustrations. CONTACT : + 33 (0) 6 82 43 56 79 jcpratt@orange.fr 
+description: "Les photos présentes sur notre site -ne sont pas libres de droit-. Toute copie et/ou utilisation sans accord préalable est strictement interdite. (CPI articles L.111-1 et suivants) © JCPRATT PHOTOGRAPHE 2017    
+SIRET : 335 253 316 00038 ; APE 9003B"
 ---
 Les photos présentes sur notre site **ne sont pas libres de droit**. Toute copie et/ou utilisation sans accord préalable est strictement interdite. (CPI articles L.111-1 et suivants) © JCPRATT PHOTOGRAPHE 2017  
 **LA CONTREFAÇON EST UN DÉLIT. MERCI DE RESPECTER MES DROITS D'AUTEUR OU CEUX DES PERSONNES DONT JE FIGURE LE TRAVAIL.**  

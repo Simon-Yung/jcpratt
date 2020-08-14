@@ -2,7 +2,7 @@
 layout: "gallery_no_resize.njk"
 date: "2020-01-18"
 title: "Election Présidentielle 2017"
-description: ""
+description: "Et pourquoi voter encore? Et pourquoi sembler être méprisé par ceux qui ne sont pas élus et, oublié, probablement par ceux que nous aurions élus... Quel Paysage d'inconséquence, d'ironie, et d’hypocrisie..."
 cover : ""
 image_scaling: "90" #en pixel, la taille verticale minimum des images presentes dans la gallery
 

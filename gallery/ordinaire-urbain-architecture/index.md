@@ -2,7 +2,7 @@
 layout: "gallery.njk"
 date: "2020-01-31"
 title: "Ordinaire Urbain (Architecture)"
-description: ""
+description: "Trop souvent les circonstances opérationnelles de nos vies urbaines nous sont imposées! Ce fait de Voir nos Vies, notre Cadre de Vie est un effort supplémentaire... Quelques perspectives ressenties suggèrent avec cette collection que les esthétiques soumises ne semblent pas vraiment naturelles, pour le moins humanistes."
 cover : ""
 image_scaling: "105" #en pixel, la taille verticale minimum des images presentes dans la gallery
 products:
