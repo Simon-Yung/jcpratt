@@ -13,3 +13,11 @@ description: "CONTACT : + 33 (0) 6 82 43 56 79 jcpratt@orange.fr "
 	Sorry, your browser doesn't support embedded videos.
 
 </video>
+
+<video controls preload >
+	<source src="{{website.url}}/movies/Passages-Helene_Yousse_SD240p.mp4"
+			type="video/mp4">
+
+	Sorry, your browser doesn't support embedded videos.
+
+</video>

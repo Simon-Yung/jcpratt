@@ -21,16 +21,19 @@ const menu_previous = document.getElementById('menu_previous');
 const menu_close = document.getElementById('menu_close');
 var menuIsVisible = false;
 
-//fake loader
+// loader spinner
+
 const loader = document.getElementById('spinner');
+
 function spinIt() {
 	loader.style.height = "100%";
 	loader.classList.add('spinning');
-	loader.onanimationend = () => {
-		loader.classList.remove('spinning');
-		loader.style.height = "0px";
-	};
 }
+
+image.onload = function() {
+	loader.classList.remove('spinning');
+	loader.style.height = "0px";
+};
 
 // Modal
 
@@ -43,6 +46,8 @@ function openModalGallery(imageIDNumber) {
 	if ( imageIDNumber > numberOfImage ) { imageIDNumber = 1; }
 	let img;
 	img = document.getElementById(imageIDNumber);
+	//start spinner 
+	spinIt();
 	//animate the preview when clicked
 	img.classList.add("zoom");
 	img.onanimationend = () => {
@@ -61,9 +66,7 @@ function openModalGallery(imageIDNumber) {
 	image.src = img.src.replace("/thumbnails", "/larges").replace("/products", "/larges");
 	currentImage = imageIDNumber;
 
-	//spinner action
-	spinIt();
-
+	//prevent scrolling on modal
 	document.body.style.overflow = 'hidden';
 }
 
