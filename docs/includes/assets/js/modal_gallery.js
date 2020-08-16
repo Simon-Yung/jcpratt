@@ -27,12 +27,14 @@ const loader = document.getElementById('spinner');
 
 function spinIt() {
 	loader.style.height = "100%";
-	loader.classList.add('spinning');
 }
-
+//start fading the spinner when image loaded, remove animation and hide at end of animation
 image.onload = function() {
-	loader.classList.remove('spinning');
-	loader.style.height = "0px";
+	loader.classList.add('fade');
+	loader.onanimationend = () => {
+		loader.style.height = "0px";
+		loader.classList.remove('fade');
+	};
 };
 
 // Modal

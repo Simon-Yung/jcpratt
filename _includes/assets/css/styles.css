@@ -317,7 +317,10 @@ body{
 	/* transform: translateX(-50%) translateY(-50%); */
 }
 .spinning{
-	animation: 0.6s linear infinite spin; /* , 0.9s linear 1 fade;*/
+	animation: 0.6s linear infinite spin; 
+}
+.fade{
+	animation: 0.5s linear 1 fade;;
 }
 @keyframes spin {
 	0% {transform:rotate(360deg);}
@@ -325,12 +328,11 @@ body{
 	50% {transform:rotate(180deg);}
 	75% {transform:rotate(90deg);}
 	100% {transform:rotate(0deg);}
-}/*
+}
 @keyframes fade {
 	0% {opacity: 1;}
-	75% {opacity: 1;}
 	100% {opacity: 0;}
-}*/
+}
 /*menu thingy*/
 #contextual_menu{
 	z-index: 13;
