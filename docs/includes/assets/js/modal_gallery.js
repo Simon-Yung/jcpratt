@@ -1,20 +1,25 @@
 
-// Get the modal gallery by id
+// Get the gallery by id
+const gallery = document.getElementById('gallery');
 const numberOfImage = document.getElementsByClassName('preview').length;
 var currentImage;
 var modalIsOpen = false;
 
+//this is the modal window
 const modal = document.getElementById('modal_window');
-
+//those are the modal image elements
 const imageContainer = document.getElementById('modal_image_container');
 const image = document.getElementById('modal_image');
 
+//those are the control bar elements
 const purchaseLink = document.getElementById('purchase_link');
+const purchaseLinkText = document.getElementById('buy_link_text');
 const previous = document.getElementById('previous');
 const pagination = document.getElementById('pagination');
 const next = document.getElementById('next');
 const closeButton = document.getElementById('close');
 
+//those are the contextual menu elements
 const menu = document.getElementById("contextual_menu");
 const menu_next = document.getElementById('menu_next');
 const menu_previous = document.getElementById('menu_previous');
@@ -27,14 +32,12 @@ const loader = document.getElementById('spinner');
 
 function spinIt() {
 	loader.style.height = "100%";
+	loader.style.width = "100%";
 }
-//start fading the spinner when image loaded, remove animation and hide at end of animation
+//
 image.onload = function() {
-	loader.classList.add('fade');
-	loader.onanimationend = () => {
-		loader.style.height = "0px";
-		loader.classList.remove('fade');
-	};
+	loader.style.height = "0";
+	loader.style.width = "0";
 };
 
 // Modal
@@ -46,27 +49,32 @@ function openModalGallery(imageIDNumber) {
 	imageIDNumber = parseInt(imageIDNumber);
 	if ( imageIDNumber == 0 ) { imageIDNumber = numberOfImage; }
 	if ( imageIDNumber > numberOfImage ) { imageIDNumber = 1; }
+	//get the thumbnail by id
 	let img;
 	img = document.getElementById(imageIDNumber);
-	//start spinner 
+	//start spinner
 	spinIt();
 	//animate the preview when clicked
 	img.classList.add("zoom");
 	img.onanimationend = () => {
 		img.classList.remove("zoom");
 	};
-	//update the buy button
-	if ( img.dataset.externalLink == undefined){
-		purchaseLink.style.display = 'none';
-	} else{
-		purchaseLink.style.display = 'flex';
-		purchaseLink.href = img.dataset.externalLink;
-	}
 	//change image, open the modal
 	modal.style.display = "flex";
 	pagination.innerHTML = img.dataset.pagination;
 	image.src = img.src.replace("/thumbnails", "/larges").replace("/products", "/larges");
 	currentImage = imageIDNumber;
+
+	//update the buy button
+	if ( img.dataset.externalLink == undefined){
+		let truncateAt = img.src.lastIndexOf('humbnails/');
+		let sliced = img.src.slice(truncateAt + 10 , -4);
+		purchaseLink.href = "mailto:jcpratt@orange.fr?subject=Print%20Request%20:%20" + sliced + "&body=Quote%20Request%20for%20:%20" + sliced ;
+		purchaseLinkText.innerHTML = gallery.dataset.requestText;
+	} else{
+		purchaseLink.href = img.dataset.externalLink;
+		purchaseLinkText.innerHTML = gallery.dataset.buyText;
+	}
 
 	//prevent scrolling on modal
 	document.body.style.overflow = 'hidden';
@@ -74,8 +82,8 @@ function openModalGallery(imageIDNumber) {
 
 //prev and next
 function nextModal(n) {
-  currentImage += n;
-  openModalGallery(currentImage);
+	currentImage += n;
+	openModalGallery(currentImage);
 }
 
 //custom right click menu
@@ -133,10 +141,10 @@ closeButton.addEventListener("click", function(){
 
 }); 
 previous.addEventListener("click", function(){
-	  nextModal(-1);
+	nextModal(-1);
 }); 
 next.addEventListener("click", function(){
-	  nextModal(+1);
+	nextModal(+1);
 }); 
 imageContainer.addEventListener("click", function(){
 	if (!menuIsVisible){
@@ -144,14 +152,4 @@ imageContainer.addEventListener("click", function(){
 		modalIsOpen = false;
 		document.body.style.removeProperty('overflow');
 	}
-}); 
-
-//update buy text
-
-function fuck() {
-	var currentBuyText = document.getElementById('buy_link_text');
-	var correctedBuyText = document.getElementById('gallery').dataset.buyText;
-	currentBuyText.innerHTML = correctedBuyText;
-}
-
-window.onload = fuck();
+});
