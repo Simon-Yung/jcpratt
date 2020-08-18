@@ -39,10 +39,11 @@ a {
 	font: 300 1rem/1.5 'Quicksand', sans-serif;
 	color: #7073ff;
 }
-h1{
+h1{/* just for video titles */
 	font: 300 1.25rem/1.25 'Quicksand', sans-serif;
 	color: #ffffff;
 	padding-bottom: 0rem;
+	text-align: center;
 }
 p{
 	font: 300 1rem/1.5 'Quicksand', sans-serif;
