@@ -15,6 +15,32 @@ function resize(className,scale) {
   
 }
 
+//experimentalvvvv
+// function resizeLastLine(scale) {
+
+// 	//this function actually resize everything not just the last line, it just prevent the last one from growing
+
+// 	let lastItem = items[items.length - 1].getBoundingClientRect().top;
+// 	let lastRowOfItems = [];
+
+// 	for (i = items.length - 1; i > -1; i--) {
+// 		let currItem = items[i].getBoundingClientRect().top;
+// 		if ( lastItem == currItem) {
+// 			lastRowOfItems.push( items[i] );
+// 		} else {
+// 			//trying to make sure the last line is the same height as the rest
+// 			let width = items[i].offsetWidth;
+
+// 			for (i = 0; i < lastRowOfItems.length; i++) {
+// 				lastRowOfItems[i].style.width = width;
+// 				lastRowOfItems[i].style.flexBasis = width;
+// 			}
+// 			break;
+// 		}
+// 	};
+// }
+//experimental^^^^
+
 var items;
 const scalingRatio = Number( document.getElementById('gallery').dataset.scalingRatio );
 window.onload = function(event){

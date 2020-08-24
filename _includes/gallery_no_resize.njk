@@ -4,6 +4,7 @@ description: ""
 permalink: "gallery/{{page.fileSlug}}/"
 tags: chapters
 buy_text: "Tirage d'Art / 1/3 / pcagalleryart"
+request_text: "Tirage d'Art : jcpratt@orange.fr"
 ---
 <!doctype html>
 <html style="scroll-behavior: smooth;">
@@ -12,6 +13,16 @@ buy_text: "Tirage d'Art / 1/3 / pcagalleryart"
 		<link rel="stylesheet" href="{{website.url}}/includes/assets/css/styles.css">
 		<script src="{{website.url}}/includes/assets/js/modal_gallery.js" defer> </script>
 		<script src="{{website.url}}/includes/assets/js/masonry_resize_lite.js" defer> </script>
+		
+		<!--overides-->
+		{%- if cover %}
+		<meta property="og:image" content="{{website.completeUrl}}/gallery/{{page.fileSlug}}/larges/{{ cover }}">
+		{%- elif products[0] %}
+		<meta property="og:image" content="{{website.completeUrl}}/gallery/{{page.fileSlug}}/larges/{{product[0]}}">
+		{%- else %}
+		<meta property="og:image" content="{{website.completeUrl}}/{{ collections[page.fileSlug][0] | replace('/thumbnails','/larges') }}">
+		{%- endif %}
+		
 		{% include "components/metadata.njk" %}
 	</head>
 	<body class="gallery_page">
@@ -23,7 +34,7 @@ buy_text: "Tirage d'Art / 1/3 / pcagalleryart"
 			<a class="gallery_button" href="#gallery"><p>Gallery</p><div class="arrow_container"><div class="arrow"></div></div></a>
 		</div>
 
-		<div id="gallery" class="gallery" data-scaling-ratio="{{image_scaling}}">
+		<div id="gallery" class="gallery" data-scaling-ratio="{{image_scaling}}" data-buy-text="{{buy_text}}" data-request-text="{{request_text}}">
 			{%- set totalNumberOfImages = ( products | length ) + ( collections[page.fileSlug] | length ) %}
 			{%- set offset = products | length %}
 		{%- for product in products %}
@@ -38,4 +49,4 @@ buy_text: "Tirage d'Art / 1/3 / pcagalleryart"
 		{% include "components/footer.njk" %}
 		{% include "components/modal.njk" %}
 	</body>
-</html>
+</html>z
